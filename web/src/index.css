@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: none !important;
+}
+
+#root {
+  height: 100%;
+  overflow: hidden;
+}
+
+.box {
+  width: 44.5rem;
+  height: 12.125rem;
+  flex-shrink: 0;
+  border-radius: 23px;
+  border: 3px solid #1E90FF;
+  background: rgba(30, 144, 255, 0.60);
+  margin: auto;
+  position: absolute;
+  bottom: 10px;
+  left: 33%;
+  user-select: none;
+}
+
+.boxInsideContainer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.ButtonTemplate {
+  width: 10rem;
+  height: 10rem;
+  flex-shrink: 0;
+  margin-top: 2.1rem;
+  margin-left: 2rem;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  animation: ZoomOutAnimation 0.5s ease-in-out;
+  animation-fill-mode: forwards;
+  user-select: none;
+}
+
+.ButtonTemplate:hover {
+  animation: ZoomInAnimation 0.5s ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+.Rock {
+  width: 10rem;
+  height: 10rem;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+
+.Paper {
+  width: 10rem;
+  height: 10rem;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+
+.Scissors {
+  width: 10rem;
+  height: 10rem;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+
+.boxDisabled {
+  width: 44.5rem;
+  height: 12.125rem;
+  flex-shrink: 0;
+  border-radius: 23px;
+  border: 3px solid #4e4e4e;
+  background: rgba(117, 117, 117, 0.6);
+  margin: auto;
+  position: absolute;
+  bottom: 10px;
+  left: 33%;
+  user-select: none;
+}
+
+.ButtonTemplateDisabled {
+  width: 10rem;
+  height: 10rem;
+  flex-shrink: 0;
+  margin-top: 2.1rem;
+  margin-left: 2rem;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  user-select: none;
+}
+
+
+.RockDisabled {
+  width: 10rem;
+  height: 10rem;
+  flex-shrink: 0;
+  object-fit: cover;
+  filter: grayscale(100%)
+}
+
+.PaperDisabled {
+  width: 10rem;
+  height: 10rem;
+  flex-shrink: 0;
+  object-fit: cover;
+  filter: grayscale(100%)
+}
+
+.ScissorsDisabled {
+  width: 10rem;
+  height: 10rem;
+  flex-shrink: 0;
+  object-fit: cover;
+  filter: grayscale(100%)
+}
+
+@keyframes ZoomInAnimation {
+  0% {}
+
+  35% {
+    transform: scale(0.9);
+  }
+
+  100% {
+    transform: scale(0.9);
+  }
+}
+
+@keyframes ZoomOutAnimation {
+  0% {
+    transform: scale(0.9);
+  }
+
+  35% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
