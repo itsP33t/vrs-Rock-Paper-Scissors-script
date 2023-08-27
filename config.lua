@@ -16,7 +16,8 @@ Config = {}
 -- This resource is standalone, so you don't need to set any framework in the config
 
 Config.Notify = "ox" -- qb | okok | es.lib | brutal | b-dev | ox
-Config.Locale = "en" -- See locales.lua for more information
+Config.Locale = "en" -- en | cs | de | fr | es | ru | it | nl | pl | pt | tr | 
+					 -- See locales.lua for more information
 
 -- Time
 Config.TimeToChoose = 5 -- Time to choose Rock, Paper or scissors (in seconds)
