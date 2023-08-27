@@ -17,7 +17,7 @@ https://youtu.be/Tle7TkgD9DE
 
 Special thanks to [@Baspel](https://forum.cfx.re/u/baspel/summary) for these awesome animations we used, it wouldn't be possible without him 😄
 
-> 🎉 **Our Other Scripts**
+## 🎉 **Our Other Scripts**
 
 [Valet Job](https://forum.cfx.re/t/paid-qbcore-esx-valet-job-deliver-cars-for-peds/5156065)
 
